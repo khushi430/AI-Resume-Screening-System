@@ -1,0 +1,30 @@
+Candidate: Strong Candidate
+EXTRACTED:
+{'Skills': ['Python', 'Machine Learning', 'SQL', 'Pandas', 'NumPy', 'NLP', 'Deep Learning', 'Tableau', 'GitHub', 'Jupyter'], 'Experience': '2 years', 'Tools': ['Jupyter', 'GitHub', 'Tableau']}
+
+MATCHED:
+{'Matched Skills': ['Python', 'Machine Learning', 'SQL', 'Pandas', 'NumPy'], 'Missing Skills': ['Data Analysis', 'Communication'], 'Experience Match': '2 years', 'Overall Match Summary': 'Matched 5 out of 7 required skills.'}
+
+SCORED:
+{'Score': 71, 'Explanation': 'Candidate matched 5 required skills. Matched skills: Python, Machine Learning, SQL, Pandas, NumPy. Missing skills: Data Analysis, Communication. Experience: 2 years. Final Fit Score: 71/100.'}
+==================================================
+Candidate: Average Candidate
+EXTRACTED:
+{'Skills': ['Python', 'Data Analysis', 'Pandas', 'Excel', 'Jupyter'], 'Experience': 'Fresher', 'Tools': ['Jupyter', 'Excel', 'Jupyter Notebook']}
+
+MATCHED:
+{'Matched Skills': ['Python', 'Data Analysis', 'Pandas'], 'Missing Skills': ['Machine Learning', 'SQL', 'NumPy', 'Communication'], 'Experience Match': 'Fresher', 'Overall Match Summary': 'Matched 3 out of 7 required skills.'}
+
+SCORED:
+{'Score': 43, 'Explanation': 'Candidate matched 3 required skills. Matched skills: Python, Data Analysis, Pandas. Missing skills: Machine Learning, SQL, NumPy, Communication. Experience: Fresher. Final Fit Score: 43/100.'}
+==================================================
+Candidate: Weak Candidate
+EXTRACTED:
+{'Skills': ['Communication'], 'Experience': 'No technical experience', 'Tools': ['MS Office']}
+
+MATCHED:
+{'Matched Skills': ['Communication'], 'Missing Skills': ['Python', 'Machine Learning', 'Data Analysis', 'SQL', 'Pandas', 'NumPy'], 'Experience Match': 'No technical experience', 'Overall Match Summary': 'Matched 1 out of 7 required skills.'}
+
+SCORED:
+{'Score': 14, 'Explanation': 'Candidate matched 1 required skills. Matched skills: Communication. Missing skills: Python, Machine Learning, Data Analysis, SQL, Pandas, NumPy. Experience: No technical experience. Final Fit Score: 14/100.'}
+==================================================
